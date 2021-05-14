@@ -15,7 +15,7 @@ public class IOCTest {
         //Date now= (Date) context.getBean("now");
         Date today=(Date) context.getBean("now");
         System.out.println("Now is "+ dateFormat.format(today));
-
+        System.out.println("mastermind1");
 
     }
 
